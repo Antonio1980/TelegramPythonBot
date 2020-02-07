@@ -1,0 +1,6 @@
+2020-01-26 23:21 --- TELEGRAM BOT STARTED: 
+2020-01-26 23:21:58,800 - PYTHON_QA - INFO -  Utils --> get_timestamps
+2020-01-26 23:21:58,802 - PYTHON_QA - INFO -  Utils --> get_dates
+2020-01-26 23:22:02,046 - PYTHON_QA - INFO -  TelegramAPI --> send_location
+2020-01-26 23:22:02,046 - PYTHON_QA - INFO - API URL is POST- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/sendLocation
+2020-01-26 23:22:02,539 - PYTHON_QA - INFO - Service Response: {'ok': True, 'result': {'message_id': 58, 'from': {'id': 1071984975, 'is_bot': True, 'first_name': 'simple-bot-198', 'username': 'SimpleAntishipulBot'}, 'chat': {'id': 360279278, 'first_name': 'Anton', 'last_name': 'Shipulin', 'username': 'antishipul', 'type': 'private'}, 'date': 1580073722, 'location': {'latitude': 0.098769, 'longitude': 0.765438}}}

@@ -1,0 +1,6 @@
+2020-01-26 23:15 --- TELEGRAM BOT STARTED: 
+2020-01-26 23:16:04,113 - PYTHON_QA - INFO -  Utils --> get_timestamps
+2020-01-26 23:16:04,116 - PYTHON_QA - INFO -  Utils --> get_dates
+2020-01-26 23:16:09,425 - PYTHON_QA - INFO -  TelegramAPI --> send_message
+2020-01-26 23:16:09,425 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/sendMessage
+2020-01-26 23:16:09,917 - PYTHON_QA - INFO - Service Response: {'ok': False, 'error_code': 400, 'description': 'Bad Request: message text is empty'}

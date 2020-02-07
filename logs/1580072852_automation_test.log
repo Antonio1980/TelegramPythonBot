@@ -1,0 +1,33 @@
+2020-01-26 23:07 --- TELEGRAM BOT STARTED: 
+2020-01-26 23:07:33,812 - PYTHON_QA - INFO -  TelegramAPI --> get_me
+2020-01-26 23:07:33,814 - PYTHON_QA - CRITICAL - get_me The get_me throws an exception: TypeError None
+Traceback (most recent call last):
+  File "/Volumes/DATA/Python/TelegramPythonBot/helper/log_decorator.py", line 22, in log_wrapper
+    return func(*args, **kwargs)
+TypeError: get_me() missing 1 required positional argument: 'self'
+2020-01-26 23:07:54,525 - PYTHON_QA - INFO -  Utils --> get_timestamps
+2020-01-26 23:07:54,527 - PYTHON_QA - INFO -  Utils --> get_dates
+2020-01-26 23:07:59,477 - PYTHON_QA - INFO -  TelegramAPI --> get_me
+2020-01-26 23:07:59,477 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/getMe
+2020-01-26 23:07:59,876 - PYTHON_QA - INFO - Service Response: {'ok': True, 'result': {'id': 1071984975, 'is_bot': True, 'first_name': 'simple-bot-198', 'username': 'SimpleAntishipulBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}}
+2020-01-26 23:08:17,805 - PYTHON_QA - INFO -  TelegramAPI --> get_updates
+2020-01-26 23:08:17,806 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/getUpdates
+2020-01-26 23:08:18,194 - PYTHON_QA - INFO - Service Response: {'ok': True, 'result': []}
+2020-01-26 23:09:26,174 - PYTHON_QA - INFO -  TelegramAPI --> get_updates
+2020-01-26 23:09:26,175 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/getUpdates
+2020-01-26 23:09:26,523 - PYTHON_QA - INFO - Service Response: {'ok': True, 'result': []}
+2020-01-26 23:09:34,543 - PYTHON_QA - INFO -  TelegramAPI --> get_updates
+2020-01-26 23:09:34,544 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/getUpdates
+2020-01-26 23:09:34,930 - PYTHON_QA - INFO - Service Response: {'ok': True, 'result': [{'update_id': 31313594, 'message': {'message_id': 56, 'from': {'id': 360279278, 'is_bot': False, 'first_name': 'Anton', 'last_name': 'Shipulin', 'username': 'antishipul', 'language_code': 'en'}, 'chat': {'id': 360279278, 'first_name': 'Anton', 'last_name': 'Shipulin', 'username': 'antishipul', 'type': 'private'}, 'date': 1580072971, 'text': 'sjkhkjas'}}]}
+2020-01-26 23:10:16,664 - PYTHON_QA - INFO -  TelegramAPI --> send_message
+2020-01-26 23:10:16,665 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/sendMessage
+2020-01-26 23:10:17,017 - PYTHON_QA - INFO - Service Response: {'ok': False, 'error_code': 400, 'description': 'Bad Request: message text is empty'}
+2020-01-26 23:11:14,866 - PYTHON_QA - INFO -  TelegramAPI --> send_message
+2020-01-26 23:11:14,866 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/sendMessage
+2020-01-26 23:11:15,228 - PYTHON_QA - INFO - Service Response: {'ok': False, 'error_code': 400, 'description': 'Bad Request: message text is empty'}
+2020-01-26 23:11:54,624 - PYTHON_QA - INFO -  TelegramAPI --> send_message
+2020-01-26 23:11:54,624 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/sendMessage
+2020-01-26 23:11:55,556 - PYTHON_QA - INFO - Service Response: {'ok': False, 'error_code': 400, 'description': 'Bad Request: message text is empty'}
+2020-01-26 23:12:55,290 - PYTHON_QA - INFO -  TelegramAPI --> send_message
+2020-01-26 23:13:12,972 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/sendMessage
+2020-01-26 23:15:29,878 - PYTHON_QA - INFO - Service Response: {'ok': False, 'error_code': 400, 'description': 'Bad Request: message text is empty'}

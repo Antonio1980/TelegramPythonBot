@@ -1,0 +1,12 @@
+2020-01-26 23:17 --- TELEGRAM BOT STARTED: 
+2020-01-26 23:17:13,209 - PYTHON_QA - INFO -  Utils --> get_timestamps
+2020-01-26 23:17:13,211 - PYTHON_QA - INFO -  Utils --> get_dates
+2020-01-26 23:17:16,209 - PYTHON_QA - INFO -  TelegramAPI --> send_message
+2020-01-26 23:17:16,210 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/sendMessage
+2020-01-26 23:17:16,651 - PYTHON_QA - INFO - Service Response: {'ok': True, 'result': {'message_id': 57, 'from': {'id': 1071984975, 'is_bot': True, 'first_name': 'simple-bot-198', 'username': 'SimpleAntishipulBot'}, 'chat': {'id': 360279278, 'first_name': 'Anton', 'last_name': 'Shipulin', 'username': 'antishipul', 'type': 'private'}, 'date': 1580073436, 'text': 'Hi Anton!'}}
+2020-01-26 23:18:29,396 - PYTHON_QA - INFO -  TelegramAPI --> send_location
+2020-01-26 23:18:29,396 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/sendLocation
+2020-01-26 23:18:29,808 - PYTHON_QA - INFO - Service Response: {'ok': False, 'error_code': 400, 'description': 'Bad Request: latitude is empty'}
+2020-01-26 23:19:32,184 - PYTHON_QA - INFO -  TelegramAPI --> send_location
+2020-01-26 23:19:32,185 - PYTHON_QA - INFO - API URL is GET- https://api.telegram.org/bot1071984975:AAH2rEuvVpcStNlqAPvxpNuUjeiKyOEY2fw/sendLocation
+2020-01-26 23:19:32,565 - PYTHON_QA - INFO - Service Response: {'ok': False, 'error_code': 400, 'description': 'Bad Request: latitude is empty'}
