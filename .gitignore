@@ -1,2 +1,7 @@
 # Project exclude paths
 /venv/
+enums/__pycache__/
+helper/__pycache__/
+tg_api/__pycache__/s
+/.idea/*
+/logs/*
