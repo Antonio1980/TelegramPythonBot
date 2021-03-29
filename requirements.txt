@@ -10,7 +10,7 @@ greenlet==0.4.15
 idna==2.8
 ntplib==0.3.3
 pycparser==2.19
-Pygments==2.5.2
+Pygments==2.7.4
 PySocks==1.7.1
 pyTelegramBotAPI==3.6.7
 python-telegram-bot==12.3.0
